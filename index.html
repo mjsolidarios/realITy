@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Share, inspire, and tell stories about different things about technology and making it big in the future.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alternate" type="application/rss+xml" title="CICT Online" href="http://cictwvsu.com/feed.xml" />
+    <title>CICT Online - RealITy X</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@cictonline">
+    <meta name="twitter:title" content="RealITy X">
+    <meta name="twitter:description" content="Share, inspire, and tell stories about different things about technology and making it big in the future.">
+    <meta name="twitter:creator" content="cictonline">
+    <meta name="twitter:image" content="/images/twitter-card.jpg">
+    <meta property="og:title" content="RealITy X" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://cictwvsu.com/realITy" />
+    <meta property="og:image" content="/images/graph-thumb.jpg" />
+    <meta property="og:description" content="Share, inspire, and tell stories about different things about technology and making it big in the future."
+    />
+    <meta property="og:site_name" content="CICT Online - RealITy" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-orange.min.css" />
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/dialog-polyfill/dialog-polyfill.css">
+    <link rel="stylesheet" href="lib/lity.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="shortcut icon" href="http://cictwvsu.com/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://cictwvsu.com/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="site-layout mdl-layout mdl-layout--fixed-header mdl-js-layout">
+        <main class="site-default mdl-layout__content">
+            <div class="default-container mdl-grid reality-container">
+                <div class="site-reality-hero">
+                    <div id="particle-hero">
+                        <div class="section-nav"> <a href="http://cictwvsu.com/ "><img src="http://cictwvsu.com/backup/images/site-logo-light.png" alt="CICT"
+                                    class="site-logo"></a></div>
+                        <div class="section-reel">
+                            <div class="playvid"> <button id="playreel" onclick="lightUp('http://cictwvsu.com/backup/videos/14849226_310433529336548_7195971980779061248_n.mp4')">
+                                <i class="material-icons play">play_arrow</i></button></div>
+                        </div>
+                        <div class="reality-theme">
+                            <div class="section-header">
+                                <div class="mdl-grid">
+                                    <div class="mdl-cell mdl-cell--6-col">
+                                        <h3 class="mdl-typography--font-light mdl-color-text--white space-reset">Innovate . Inspire . Create . Tell</h3>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--6-col">
+                                        <ul class="social-list reality-social">
+                                            <li> <a href="https://www.facebook.com/linkexeofficial" class="socicon-reality socicon-facebook"></a></li>
+                                            <li>
+                                            <a href="https://www.instagram.com/linkexeofficial" class="socicon-reality socicon-instagram"></a></li>
+                                            <li>
+                                            <a href="https://www.youtube.com/user/TheLinkExe" class="socicon-reality socicon-youtube"></a></li>
+                                            <li>
+                                            <a href="https://vimeo.com/linkexe" class="socicon-reality socicon-vimeo"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="site-reality-countdown">
+                    <div class="section-content">
+                        <h3 class="mdl-typography--font-light mdl-typography--text-center">Results will be posted soon!</h3>
+                        <h4 class="mdl-typography--text-center"><span class="days">Event Ended.</span></h4>
+                        <h4 id="clock" class="mdl-typography--text-center hidden"><span class="days"></span><span class="hours"></span><span class="minutes"></span><span class="seconds"></span></h4>
+                        <p
+                            class="mdl-typography--text-center reality-p"><strong>Hashtag! #reality10, #linkexe</strong>. The annual event of LINK.exe, RealITy on it's tenth
+                            year. Share, inspire, and tell stories about different things about technology and making it
+                            big in the future. Be inspired. Stay inspired.</p>
+                    </div>
+                </div>
+                <div class="site-reality-contests">
+                    <h3 class="mdl-typography--font-light mdl-typography--text-center" style="margin-top: 0;">Contest Guidelines</h3>
+                    <p class="mdl-typography--text-center reality-p">Everyone is invited to join!</p>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center"> <img src="images/contest-logos/codejam.png" class="cl"> <br> <a href="downloads/code-jam.pdf"
+                                class="mdl-button mdl-js-button mdl-button--raised reality-btn"> HACKATHON </a></div>
+                        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                        <img src="images/contest-logos/emblem.png" class="cl"> <br> <a href="downloads/emblem.pdf"
+                                class="mdl-button mdl-js-button mdl-button--raised reality-btn"> ON-THE-SPOT LOGO MAKING </a></div>
+                        <div
+                            class="mdl-cell mdl-cell--4-col mdl-typography--text-center"> <img src="images/contest-logos/tweaks.png" class="cl"> <br> <a href="downloads/tweaks.pdf"
+                                class="mdl-button mdl-js-button mdl-button--raised reality-btn"> ON-THE-SPOT PHOTO MANIPULATION
+                                </a></div>
+                        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center"> <img src="images/contest-logos/focus.png" class="cl"> <br> <a href="downloads/focus.pdf"
+                                class="mdl-button mdl-js-button mdl-button--raised reality-btn"> PHOTOGRAPHY </a></div>
+                        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                        <img src="images/contest-logos/reel.png" class="cl"> <br> <a href="downloads/reel.pdf"
+                                class="mdl-button mdl-js-button mdl-button--raised reality-btn"> VIDEO </a></div>
+                        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                        <img src="images/contest-logos/buffer.png" class="cl"> <br> <a href="downloads/buffer.pdf"
+                                class="mdl-button mdl-js-button mdl-button--raised reality-btn"> QUIZ BEE </a></div>
+                    </div>
+                </div>
+                <div class="site-reality-venue mdl-typography--text-center">
+                    <h4 class="mdl-typography--font-light mdl-color-text--white"> <i class="material-icons mdl-color-text--white">place</i> West Visayas State University Cultural Center
+                        <button onclick="lightUp('https://www.google.com/maps/d/u/0/embed?mid=1pHVelHDPj-eDuSNqXQ8yqMiONrA&hl=en&z=18')"
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-color--white"> <i class="material-icons">launch</i>
+                            Open Map </button></h4>
+                    <p id="osm" class="mdl-color-text--white">Having trouble viewing the map? An Open Street Map version is <a href="#osm" onclick="lightUp('http://www.openstreetmap.org/export/embed.html?bbox=122.55475401878358%2C10.710011522110277%2C122.56672739982606%2C10.716231204840115&amp;layer=mapnik')">available</a>.</p>
+                </div>
+                <div class="site-reality-schedule">
+                    <h3 class="mdl-typography--font-light mdl-typography--text-center">Program Schedule</h3>
+                    <p class="mdl-typography--text-center reality-p">Checkout our activities for the day.</p>
+                    <div class="section-spacer"></div>
+                    <div id="schedule-toggle">
+                        <table class="tb-reality-schedule">
+                            <tr>
+                                <td class="mdl-typography--text-right">7:30 AM - 8:30 AM</td>
+                                <td>Registration (Php. 20.00)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:30 AM - 8:35 AM</td>
+                                <td>Entrance of Colors</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:35 AM - 8:40 AM</td>
+                                <td>Doxology</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:40 AM - 8:42 AM</td>
+                                <td>Philippine National Anthem</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:42 AM - 8:44 AM</td>
+                                <td>WVSU Hymn</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:44 AM - 8:50 AM</td>
+                                <td>Opening Remarks by Prof. Regin Cabacas, LINK.exe Adviser</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:50 AM - 8:55 AM</td>
+                                <td>Message from the Dean, Dr. Joel T. De Castro</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">8:55 AM - 9:00 AM</td>
+                                <td>RealITy 10 Opening Billboard (OBB)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">9:00 AM - 9:12 AM</td>
+                                <td>Contest Guidelines</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">9:12 AM - 9:15 AM</td>
+                                <td>Introduction of 1<sup>st</sup> Speaker</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">9:15 AM - 10:00 AM</td>
+                                <td>Mikeel Arana(1<sup>st</sup> Speaker)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">10:00 AM - 10:15 AM</td>
+                                <td>Question and Answer</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">10:15 AM - 10:17 AM</td>
+                                <td>Tokens and Certificates for 1<sup>st</sup> Speaker</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">10:17 AM - 10:20 AM</td>
+                                <td>Intermission - Elision Kurt Tolentino</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">10:20 AM - 10:23 AM</td>
+                                <td>Introduction of 2<sup>nd</sup> Speaker</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">10:23 AM - 11:08 AM</td>
+                                <td>Kristopher King Caldera(2<sup>nd</sup> Speaker)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">11:08 AM - 11:23 AM</td>
+                                <td>Question and Answer</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">11:23 AM - 11:25 AM</td>
+                                <td>Tokens and Certificates for 2<sup>nd</sup> Speaker</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">11:25 AM - 01:00 PM</td>
+                                <td>L U N C H B R E A K</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">01:00 PM - 01:30 PM</td>
+                                <td>Sign-in</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">01:30 PM - 01:32 PM</td>
+                                <td>Teaser 1</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">01:32 PM - 01:35 PM</td>
+                                <td>Introduction of 3<sup>rd</sup> Speaker</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">01:35 PM - 02:20 PM</td>
+                                <td>Prim Paypon(3<sup>rd</sup> Speaker)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">02:20 PM - 02:35 PM</td>
+                                <td>Question and Answer</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">02:35 PM - 02:37 PM</td>
+                                <td>Tokens and Certificates for 3<sup>rd</sup> Speaker</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">02:40 PM - 02:43 PM</td>
+                                <td>Intermission - Chelsea Maxine Dalisay</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">02:43 PM - 02:45 PM</td>
+                                <td>Teaser 2</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="mdl-typography--text-center"><strong>Awarding Ceremonies</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">02:45 PM - 03:45 PM</td>
+                                <td>BUFFER(Quiz Bee)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">03:45 PM - 04:05 PM</td>
+                                <td>EMBLEM(Logo Making Contest)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">04:05 PM - 04:25 PM</td>
+                                <td>TWEAKS(Photo Manipulation Contest)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">04:25 PM - 04:45 PM</td>
+                                <td>CODE JAM(Hackaton)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">04:20 PM - 04:25 PM</td>
+                                <td>SNAP(Photo Race Challenge)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">04:25 PM - 04:45 PM</td>
+                                <td>FOCUS(Photo Contest)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">04:45 PM - 05:45 PM</td>
+                                <td>REEL(Video Contest)</td>
+                            </tr>
+                            <tr>
+                                <td class="mdl-typography--text-right">05:45 PM - 05:50 PM</td>
+                                <td>Closing Remarks by Ma. Thea Beatriz S. Barte</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="section-spacer"></div>
+                    <div style="width:100%;text-align:center"> <button id="toggle-tb" class="mdl-button mdl-js-button mdl-button--raised reality-btn"> SHOW SCHEDULE
+                            </button></div>
+                </div>
+                <div class="site-reality-speakers mdl-typography--text-center">
+                    <div class="section-content">
+                        <h3 class="mdl-typography--font-light mdl-color-text--white">Speakers</h3>
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--4-col"> <img src="images/speakers/1.png" alt="" class="spkimg"><h4 class="mdl-color-text--white mdl-typography--text-capitalize">MIKEEL
+                                    ARAÑA</h4>
+                                <p class="mdl-typography--text-left mdl-color-text--white spkdesc"> Mikeel Araña is a marketing director and designer at FUEL.ph. His passion is visual communication.
+                                    He loves words, shapes, lines, colours, textures, images, and how they all work together
+                                    to communicate a message. He also loves how design is a tool for touching people's lives
+                                    and in shaping a better future together.</p>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col"> <img src="images/speakers/2.png" alt="" class="spkimg"><h4 class="mdl-color-text--white mdl-typography--text-capitalize">PRIM
+                                    PAYPON</h4>
+                                <p class="mdl-typography--text-left mdl-color-text--white spkdesc">Prim Paypon is a Filipino dreamagineer who founded The Dream Project PH – a non-profit, volunteer-based
+                                    organization that helps build the nation by building, shaping and enabling collective
+                                    Filipino dreams among underserved and underprivileged communities through creative education,
+                                    social design innovation, youth voluntraining and community collaboration.</p>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col"> <img src="images/speakers/3.png" alt="" class="spkimg"><h4 class="mdl-color-text--white mdl-typography--text-capitalize">KING
+                                    CALDERA</h4>
+                                <p class="mdl-typography--text-left mdl-color-text--white spkdesc">Kristopher King Caldera is currently a general manager and director at MAYAD Studios. He's
+                                    passionate for directing well-balanced wedding videos that feature mixed emotions–fun
+                                    shots interwoven with heartfelt ones in a footage that is both candid and cleverly calculated.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="site-reality-sponsors mdl-typography--text-center">
+                    <div class="section-content">
+                        <h3 class="mdl-typography--font-light">Thanks to our Sponsors</h3>
+                        <p class="reality-p"> This event was made possible with the help of our generous sponsors.</p>
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp1" src="images/sponsors/1.jpg" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp1">JHET Travel and Visa Assistance Service</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp2" src="images/sponsors/2.jpg" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp2">Mr. Misono</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp3" src="images/sponsors/3.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp3">Yamaha</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp4" src="images/sponsors/4.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp4">Cafe Diem</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp5" src="images/sponsors/5.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp5">Prime Cut</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp6" src="images/sponsors/6.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp6">Mayad Post</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp7" src="images/sponsors/7.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp7">Bluqube</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp8" src="images/sponsors/8.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp8">Bakery by LOUIS</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp9" src="images/sponsors/9.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp9">iQor</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp10" src="images/sponsors/10.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp10">Excursion Cafe</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp11" src="images/sponsors/11.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp11">Angelina Bakeshop</div>
+                            <div class="mdl-cell mdl-cell--col-3 linkage"><img id="sp12" src="images/sponsors/12.png" alt="" class="linkage-logo-box"></div>
+                            <div
+                                class="mdl-tooltip" data-mdl-for="sp12">Jollibee</div>
+                        </div>
+                        <div class="section-spacer"></div>
+                        <p class="reality-p"> Interested in sponsoring this event? Inquire at our <a href="https://www.facebook.com/linkexeofficial/">Facebook
+                                page</a>.</p>
+                        <div class="section-spacer"></div>
+                        <p class="reality-p"> You can also leave a comment below for inquiries.</p>
+                        <div class="section-spacer"></div>
+                        <div id="disqus_thread"></div> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+                                rel="nofollow">comments powered by Disqus.</a></noscript></div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer mdl-color--grey-900">
+                <div class="mdl-mini-footer--left-section">
+                    <div class="mdl-logo"> Copyright © 2002‒2016 College of ICT</div>
+                    <ul class="mdl-mini-footer__link-list">
+                        <li> <a href="http://wvsu.edu.ph/">West Visayas State University</a></li>
+                    </ul>
+                </div>
+                <div class="mdl-mini-footer__right-section"></div>
+            </footer>
+        </main>
+    </div>
+    <div id="fb-root"></div>
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="lib/dialog-polyfill/dialog-polyfill.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/lity.min.js"></script>
+    <script src="lib/particleground.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script>!function (e, n, t) { var o, c = e.getElementsByTagName(n)[0]; e.getElementById(t) || (o = e.createElement(n), o.id = t, o.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7", c.parentNode.insertBefore(o, c)) }(document, "script", "facebook-jssdk")</script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="//newsharecounts.s3-us-west-2.amazonaws.com/nsc.js"></script>
+    <script>window.newShareCountsAuto = "smart"</script>
+    <script>window.___gcfg = { lang: "en-US", parsetags: "onload" }</script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>var disqus_config = function () { this.page.url = "http://cictwvsu.com/realITy/", this.page.identifier = "" }; !function () { var t = document, e = t.createElement("script"); e.src = "//cict-online.disqus.com/embed.js", e.setAttribute("data-timestamp", +new Date), (t.head || t.body).appendChild(e) }()</script>
+    <script>!function (e, t, a, n, c, s, o) { e.GoogleAnalyticsObject = c, e[c] = e[c] || function () { (e[c].q = e[c].q || []).push(arguments) }, e[c].l = 1 * new Date, s = t.createElement(a), o = t.getElementsByTagName(a)[0], s.async = 1, s.src = n, o.parentNode.insertBefore(s, o) }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-83959555-1", "auto"), ga("send", "pageview")</script>
+</body>
+
+</html>
